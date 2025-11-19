@@ -1,21 +1,20 @@
 import json
-
 ruta_json = "estudiantes.json"
 
 def leerDatos ():
-    print("leer datos")
+    print("leer datos\n")
 
 def guardaDatos ():
-    print("guardar datos")
+    print("guardar datos\n")
 
 def crearEstudiante ():
-    print("crear estudiantes")
+    print("crear estudiantes\n")
 
 def actualizar ():
-    print("actualizar")
+    print("actualizar\n")
 
 def eliminar ():
-    print("eliminar")
+    print("eliminar\n")
 
 programa = 0
 
@@ -34,3 +33,18 @@ while programa != 6:
 
     if programa < 1 or programa > 6:
         print("Ingresa una opcion valida\n")
+    
+    if programa == 1:
+        leerDatos()
+
+    if programa == 2:
+        guardaDatos()
+
+    if programa == 3:
+        crearEstudiante()
+
+    if programa == 4:
+        actualizar()
+
+    if programa == 5:
+        eliminar()
