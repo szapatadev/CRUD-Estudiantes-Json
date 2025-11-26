@@ -31,4 +31,4 @@ Permite modificar los datos de un estudiante existente según su ID.
 6. eliminar_estudiante(lista)
 Elimina un registro por ID.
 7. menu()
-Muestra las opciones:
+Muestra las opciones
